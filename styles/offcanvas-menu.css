@@ -1,0 +1,111 @@
+#offcanvas-menu.toggled {
+	transform: translateX(0);
+}
+
+#offcanvas-menu {
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: #313131;
+    
+    transform: translateX(280px);
+    transition: .5s;
+    z-index: 99999;
+}
+
+.menu-wrapper {
+	height: 100%;
+	overflow: auto;
+    padding-top: 60px;
+}
+
+.menu-toggle i{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 25px;
+	text-align: center;
+	background-color: #313131;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.menu-toggle {
+	position: fixed;
+	top: 10px;
+    right: 10px;
+    transition: .1s;
+    z-index: 9999;
+}
+
+.menu-toggle.sticky {
+	position: fixed;
+	width: 100%;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 10px 10px 10px 0;
+	background-color: #e4eaee;
+}
+
+.menu-toggle.sticky::before {
+	content: "";
+	position: absolute;
+    width: 155px;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: -15px auto 0;
+	background: url("../images/logo-2.png") no-repeat;
+}
+
+#offcanvas-menu .close-menu {
+    position: absolute;
+    top: 15px;
+	margin-left: -20px;
+}
+
+#offcanvas-menu .close-menu i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #ffffff;
+	background-color: #00b3fe;
+}
+
+#offcanvas-menu .menu-wrapper li a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #b7becd;
+	border-bottom: 1px solid #b7becd;
+    padding: 10px 40px;
+    display: block;
+}
+
+#offcanvas-menu .menu-wrapper li ul {
+	display: none;
+}
+
+#offcanvas-menu .menu-wrapper li .sub-menu a {
+	padding-left: 55px;
+}
+
+#offcanvas-menu .menu-wrapper li ul{
+	display: none;
+}
+
+#offcanvas-menu .menu-wrapper li a.active{
+	color: #00b3fe;
+}
+
+#offcanvas-menu .menu-wrapper li a:hover{
+	color: #00b3fe;
+}

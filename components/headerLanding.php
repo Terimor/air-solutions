@@ -165,7 +165,7 @@ drift.load('huamefartd69');
                         </div>
                         <span class="menu-toggle navbar visible-xs visible-sm"><i class="fa fa-bars" aria-hidden="true"></i></span>
                         <div class="nav-right-bar navbar-right hidden-sm hidden-xs">
-                            <span><a href="https://cabinet.airsolutions.club/#/sign-in"><i class="ei-log-in" aria-hidden="true"></i> Войти в кабинет</a></span>
+                            <span><a href="https://air-solutions-admin.herokuapp.com/sign-in"><i class="ei-log-in" aria-hidden="true"></i> Войти в кабинет</a></span>
                         </div>
                     </div>
                 </div>

@@ -159,7 +159,7 @@ drift.load('huamefartd69');
                                     <li class="<?php set_active('business_model', $whatPage) ?>"><a href="business_model.php"><i class="ei-panel-1"></i> Бизнес-модель</a></li>
                                     <li class="<?php set_active('faq', $whatPage) ?>"><a href="faq.php"><i class="ei-desk-lamp"></i> F.A.Q.</a></li>
                                     <li class="<?php set_active('contacts', $whatPage) ?>"><a href="contacts.php"><i class="fa fa-envelope-o"></i> Контакты</a></li>
-                                    <div class="nav-kp"><a href="https://cabinet.airsolutions.club/#/sign-in" class="btn btn-primary"><i class="ei-log-in" aria-hidden="true" style="margin-right: 2px;"></i> Войти в кабинет</a></div>
+                                    <div class="nav-kp"><a href="https://air-solutions-admin.herokuapp.com/sign-in" class="btn btn-primary"><i class="ei-log-in" aria-hidden="true" style="margin-right: 2px;"></i> Войти в кабинет</a></div>
                                 </ul>
                             </div>
                         </div>
